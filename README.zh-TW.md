@@ -34,7 +34,7 @@ chmod +x app
 - [ ] 儲存喜歡的城市
 - [ ] 顯示濕度與風速
 - [ ] 輸出有顏色的字串，更易於辨識及閱讀
-- [ ] 根具天氣狀況產生 ASCII 動畫
+- [ ] 根擄天氣狀況產生 ASCII 動畫
 
 ## License
 本專案採用 [MIT License](./LICENSE).
