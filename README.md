@@ -12,42 +12,33 @@ A command-line Python app that fetches real-time weather data for any city using
 - Works for any city worldwide
 
 ## Installation
+No installation required. Download the latest release from the [Releases page](https://github.com/monosdev/weather/releases) and run it directly.
 
-1. Clone this repository:
+## Running (Linux)
 
+1. Navigate to the download folder.
+
+2. Make the program executable:
 ```bash
-git clone https://github.com/your-username/console-weather-app.git
-cd console-weather-app
+chmod +x app
 ```
 
-2. Install the required libraries:
-
+3. Run it:
 ```bash
-pip install requests python-dotenv
-```
-
-3. Create a `.env` file in the project root and add your API key:
-
-```
-API_KEY=your_openweathermap_api_key_here
-```
-
-## Running
-
-```bash
-python weather.py
+./app
 ```
 
 ## Demo
 
-
+![Screenshot](./screenshot.png)
 
 ## Roadmap
 
 Planned features for future versions:
-- [ ] 5-day weather forecast
+- [ ] GUI version
 - [ ] Save favorite cities
-- [ ] Weather alerts for extreme conditions
+- [ ] Check humidity and wind speed
+- [ ] Color-coded output for easy reading
 - [ ] ASCII weather art based on conditions
 
 ## License
