@@ -1,5 +1,5 @@
 # Weather
-English | 正體中文
+English | [正體中文](./README.zh-TW.md)
 
 A command-line Python app that fetches real-time weather data for any city using the [OpenWeatherMap](https://openweathermap.org/) API.
 
