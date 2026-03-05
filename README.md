@@ -1,33 +1,17 @@
 # Weather
-Check your local weather forecast
 
-A command-line Python app that fetches real-time weather data for any city using the OpenWeatherMap API.
+English | 正體中文
 
-## ✨ Features
+A command-line Python app that fetches real-time weather data for any city using the [OpenWeatherMap](https://openweathermap.org/) API.
+
+## Features
 
 - Get current temperature (°C)
 - See weather conditions (sunny, rainy, cloudy, etc.)
-- Check humidity and wind speed
+- Check high and low temperature
 - Works for any city worldwide
-- Color-coded output for easy reading
 
-
-
-## 🛠️ Tech Stack
-
-- **Language:** Python 3.10+
-- **Libraries:** `requests`, `python-dotenv`
-- **API:** [OpenWeatherMap](https://openweathermap.org/api)
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Before running this app, make sure you have:
-- Python 3.10 or higher installed
-- A free API key from [OpenWeatherMap](https://openweathermap.org)
-
-### Installation
+## Installation
 
 1. Clone this repository:
 
@@ -48,31 +32,17 @@ pip install requests python-dotenv
 API_KEY=your_openweathermap_api_key_here
 ```
 
-
-
-### Running the App
+## Running
 
 ```bash
 python weather.py
 ```
 
-## 📸 Demo
-
-```
-Enter city name: London
-
-📍 Weather in London, GB
-━━━━━━━━━━━━━━━━━━━━━━━
-🌡️  Temperature : 14°C
-🌥️  Condition   : Overcast clouds
-💧 Humidity    : 78%
-💨 Wind Speed  : 5.2 m/s
-━━━━━━━━━━━━━━━━━━━━━━━
-```
+## Demo
 
 
 
-## 🗺️ Roadmap
+## Roadmap
 
 Planned features for future versions:
 - [ ] 5-day weather forecast
@@ -80,19 +50,6 @@ Planned features for future versions:
 - [ ] Weather alerts for extreme conditions
 - [ ] ASCII weather art based on conditions
 
-## 📚 What I Learned
+## License
 
-Building this project taught me how to:
-- Make HTTP requests to a real-world API using Python
-- Parse and work with JSON data
-- Manage secret keys safely using environment variables
-- Structure a Python project with clean, readable code
-
-
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-Made with ☕ by [Your Name](https://github.com/your-username)
+This project is licensed under the [MIT License](./LICENSE).
