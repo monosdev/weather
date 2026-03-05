@@ -1,6 +1,15 @@
-import json, requests
+import json, sys, os, requests
 
-with open('config.json') as file:
+def get_resource():
+    if getattr(sys, 'frozen', False):
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.dirname(__file__)
+    return base_path
+
+config_path = os.path.join(get_resource(), 'config.json')
+
+with open(config_path) as file:
     config = json.load(file)
 
 api_key = config.get('api_key')
